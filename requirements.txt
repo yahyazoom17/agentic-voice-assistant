@@ -1,0 +1,20 @@
+# ── Core AI / Agent framework ──────────────────────────────────────────────
+crewai>=0.80.0
+# openai>=1.30.0  # not needed when using Ollama
+
+# ── Speech to Text ─────────────────────────────────────────────────────────
+openai-whisper>=20231117
+# faster-whisper>=1.0.0   # optional: GPU-accelerated Whisper drop-in
+
+# ── Text to Speech ─────────────────────────────────────────────────────────
+piper-tts>=1.2.0
+
+# ── Audio I/O ──────────────────────────────────────────────────────────────
+pyaudio>=0.2.14
+sounddevice>=0.4.6
+soundfile>=0.12.1
+
+# ── Utilities ──────────────────────────────────────────────────────────────
+numpy>=1.24.0
+requests>=2.31.0
+pydantic>=2.0.0
